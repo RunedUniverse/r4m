@@ -22,7 +22,7 @@
 
 	<groupId>net.runeduniverse.tools.maven.r4m</groupId>
 	<artifactId>r4m-parent</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<packaging>pom</packaging>
 
 	<name>Runes4Maven Parent</name>
@@ -69,9 +69,11 @@
 	<scm>
 		<url>https://github.com/RunedUniverse/r4m-maven-extension</url>
 		<connection>
-			scm:git:http://github.com/RunedUniverse/r4m-maven-extension.git</connection>
+			scm:git:https://github.com/RunedUniverse/r4m-maven-extension.git
+		</connection>
 		<developerConnection>
-			scm:git:git@github.com:RunedUniverse/r4m-maven-extension.git</developerConnection>
+			scm:git:git@github.com:RunedUniverse/r4m-maven-extension.git
+		</developerConnection>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
@@ -85,7 +87,7 @@
 		<root-dir>${basedir}</root-dir>
 		<!-- VERSIONS -->
 		<major-version>1</major-version>
-		<minor-version>0</minor-version>
+		<minor-version>1</minor-version>
 		<artifact-version>0</artifact-version>
 		<!-- ARTIFACT VERSIONS -->
 		<maven-version-min>3.3.9</maven-version-min>
